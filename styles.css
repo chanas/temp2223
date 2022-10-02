@@ -31,8 +31,8 @@
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .overview{
@@ -49,6 +49,7 @@
 
 .procedure{
     background-color: #dbe3e7;
+    padding: 1px;
 }
 
 .showcase{
