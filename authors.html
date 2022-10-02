@@ -42,72 +42,63 @@
         </div>
     </nav>
 
-    <!-- How to Use the Sensor -->
-  <section class="procedure">
-    <div class="container">
-      <br> <!-- Line break -->
-      <div class="text-center">
-        <h1 >Procedure</h1>
-        <h2>Using a numbered list, describe your procedure (incude pictures)</h2>
-      </div>
-      
-      <hr><br> <!-- Horizontal line and line break -->
-      <table class="table table-hover table-borderless">
-        <tbody>
-          <tr>
-            <th scope="row">
-              <h2>Step 1</h2>
-            </th> <!-- scope="row" specifies header cell is the header for a row -->
-            <td>
-              <p class="howTo">Start Python Flask server</p>
-            </td>
-            <td class="text-center"><img src="/img/pythonLogo.png" alt="Python Logo"></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <h2>Step 2</h2>
-            </th>
-            <td>
-              <p class="howTo">Power circuit on. SR-04/05 transmits data to Nano IOT</p>
-            </td>
-            <td class="text-center"><img src="/img/rangeFinderTP.png" alt="SRO4 Range Finder"></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <h2>Step 3</h2>
-            </th>
-            <td>
-              <p class="howTo">Nano IoT connects to PC via Wi-Fi and sends data to Arduino program.</p>
-            </td>
-            <td class="text-center"><img src="/img/nano33IoT3.png" alt="Nano 33 IoT"></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <h2>Step 4</h2>
-            </th>
-            <td>
-              <p class="howTo">Arduino and Flask server communicate via HTTP request protocol.</p>
-            </td>
-            <td class="text-center"><img src="/img/arduinoLogo.png" alt="Arduino Logo"></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <h2>Step 5</h2>
-            </th>
-            <td>
-              <p class="howTo">Flask connects to Firebase and sends data for storage.</p>
-            </td>
-            <td class="text-center"><img src="/img/firebaseLogo.png" alt="Firebase"></td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- About the Team-->
+    <section class="authors">
+        <div class="container">
+            <br> <!-- Line break -->
+            <h1 class="text-center about-team">About the Team</h1>
+            <hr><br> <!-- Horizontal line and line break -->
 
-    </div>
-  </section>
-
-    
-
-
+            <!-- Cards organized in 2 x 2 table format-->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card about">
+                        <img src="/img/woman1.jpg" class="card-img-top" alt="Name 1">
+                        <div class="card-body">
+                            <h4 class="card-title">Student Name</h4>
+                            <h5>Class: BME</h5>
+                            <p class="card-text">Describe (in detail) the contributions that this team member made to
+                                the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card about">
+                        <img src="/img/man1.png" class="card-img-top" alt="Name 2">
+                        <div class="card-body">
+                            <h4 class="card-title">Student Name</h4>
+                            <h5>Class: BME</h5>
+                            <p class="card-text">Describe (in detail) the contributions that this team member made to
+                                the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card about" >
+                        <img src="/img/woman2.jpg" class="card-img-top" alt="Name 3">
+                        <div class="card-body">
+                            <h4 class="card-title">Student Name</h4>
+                            <h5>Class: SE</h5>
+                            <p class="card-text">Describe (in detail) the contributions that this team member made to
+                                the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card about" >
+                        <img src="/img/man2.jpg" class="card-img-top" alt="Name 4">
+                        <div class="card-body">
+                            <h4 class="card-title">Student Name</h4>
+                            <h5>Class: SE</h5>
+                            <p class="card-text">Describe (in detail) the contributions that this team member made to
+                                the project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
 
     <!--Footer (requires BS icons CSS)-->
     <footer class="p-5 footer text-light text-center position-relative">
